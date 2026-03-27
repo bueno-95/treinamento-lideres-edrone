@@ -36,8 +36,70 @@ body{font-family:'Helvetica Neue LT Pro','HelveticaNeue-Bold','Helvetica Neue','
 .edrone-watermark{position:fixed;bottom:20px;right:20px;z-index:9998;opacity:.15}
 footer{background:var(--bg-darker);border-top:1px solid rgba(165,131,213,.15);padding:3rem 0;text-align:center;color:var(--text-muted);font-size:.85rem}
 .icon-md{width:28px;height:28px;vertical-align:middle}
-@media(max-width:768px){.matrix-grid,.bias-grid,.comparison-row{grid-template-columns:1fr}.indicator-row{grid-template-columns:repeat(3,1fr)}.hero-stats{gap:1rem}.hero-stat{min-width:120px;padding:.8rem 1.2rem}.card{padding:1.3rem}.illus-card{flex-direction:column}.illus-card img{width:100%;height:180px}.section-img{height:180px}}
-@media(max-width:480px){.indicator-row{grid-template-columns:1fr 1fr}}
+@media(max-width:768px){
+.matrix-grid,.bias-grid,.comparison-row{grid-template-columns:1fr}
+.indicator-row{grid-template-columns:repeat(3,1fr)}
+.hero-stats{gap:.8rem}
+.hero-stat{min-width:100px;padding:.7rem 1rem}
+.hero-stat-number{font-size:1.5rem}
+.card{padding:1.2rem}
+.illus-card{flex-direction:column}
+.illus-card img{width:100%;height:180px}
+.section-img{height:180px}
+.hero h1{font-size:1.6rem}
+.hero-subtitle{font-size:.95rem}
+.hero{padding:5rem 1rem 3rem}
+.section-header h2{font-size:1.4rem}
+.section-header p{font-size:.9rem}
+.container{padding:0 1rem}
+section{padding:3rem 0}
+.module-section{padding-top:2.5rem}
+.nav-inner{gap:0;padding:0 .5rem}
+.nav-link{font-size:.68rem;padding:.6rem .4rem}
+.nav-brand svg{width:60px}
+.styled-table{font-size:.78rem;display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.styled-table th,.styled-table td{padding:.6rem .5rem;white-space:nowrap}
+.script-block{font-size:.82rem;padding:1.2rem .8rem}
+.pledge{padding:2rem 1.2rem}
+.pledge-text{font-size:1rem}
+.signature-line{width:200px}
+.escalation-step{padding:1rem;gap:.7rem}
+.escalation-step .level-num{font-size:1.4rem;min-width:30px}
+.protocol-step{padding:1rem;gap:.7rem}
+.protocol-letter{font-size:1.6rem;min-width:30px}
+.timeline-item{padding-left:50px}
+.quote-block{padding:.8rem 1rem;font-size:.9rem}
+.reading-list li{gap:.5rem}
+.hero-logo svg{width:140px;height:auto}
+.edrone-watermark{bottom:10px;right:10px}
+.edrone-watermark svg{width:50px}
+.hero-svg svg{max-width:100%;height:auto}
+.inline-img{height:150px}
+.bias-card{padding:1rem}
+.bias-card h4{font-size:.85rem}
+.bias-card p{font-size:.8rem}
+.comparison-col{padding:1rem}
+.comparison-col li{font-size:.82rem}
+}
+@media(max-width:480px){
+.indicator-row{grid-template-columns:1fr 1fr}
+.hero-stats{flex-direction:column;align-items:center;gap:.6rem}
+.hero-stat{min-width:80%;padding:.6rem 1rem}
+.hero h1{font-size:1.3rem}
+.nav-link{font-size:.62rem;padding:.5rem .3rem}
+.card h3{font-size:1.05rem}
+.section-badge{font-size:.65rem;padding:.25rem .7rem}
+.hero-badge{font-size:.65rem;padding:.3rem .8rem;letter-spacing:1px}
+.styled-table th,.styled-table td{font-size:.7rem;padding:.5rem .4rem}
+.pledge-text{font-size:.9rem;line-height:1.7}
+.top-nav{top:4px}
+.card h4{font-size:.92rem}
+.card p,.card li{font-size:.85rem}
+.exercise{padding:1rem}
+.exercise h4{font-size:.9rem}
+.checklist li{padding:.5rem 0 .5rem 2rem;font-size:.85rem}
+.checklist li::before{width:16px;height:16px}
+}
 @media print{.top-nav,.progress-bar-container,.edrone-watermark{display:none}body{background:#fff;color:#222}.card{border:1px solid #ccc;box-shadow:none;background:#f9f9f9}}
 </style>
 </head>
